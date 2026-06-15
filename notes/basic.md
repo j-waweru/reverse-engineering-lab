@@ -1,4 +1,4 @@
-# Decompiling the most basic fn 
+## Decompiling the most basic fn 
 
 ```
 int main() { return 123; }
@@ -17,7 +17,7 @@ int main() { return 123; }
 
 ```
 
-# Decompiling the famous hello world 
+## Decompiling the famous hello world 
 
 ```
 
@@ -69,7 +69,7 @@ LDMFD  SP!, {R4,PC}                     # Epilogue
 
 ---
 
-# Prologue and epilogue in ARM 
+## Prologue and epilogue in ARM 
 
 ```
  STMFD SP!, {R4,LR}  
@@ -82,7 +82,7 @@ It starts by subtracting SP and then loading the values of the registers to the 
 The epilogue is the inverse and loads from the sp into r4 and the program counter.
 
 
-# Cdel convention
+## Cdel convention
 
 push arg3
 push arg2
